@@ -1,0 +1,14 @@
+c:\users\user\documents\visual studio 2012\Projects\EpamTask7-3\EpamTask7-3\bin\EpamTask7-3.dll
+c:\users\user\documents\visual studio 2012\Projects\EpamTask7-3\EpamTask7-3\bin\EpamTask7-3.pdb
+c:\users\user\documents\visual studio 2012\Projects\EpamTask7-3\EpamTask7-3\obj\Debug\EpamTask7-3.dll
+c:\users\user\documents\visual studio 2012\Projects\EpamTask7-3\EpamTask7-3\obj\Debug\EpamTask7-3.pdb
+C:\Users\user\Desktop\050514\EpamTask7-3\EpamTask7-3\bin\EpamTask7-3.dll
+C:\Users\user\Desktop\050514\EpamTask7-3\EpamTask7-3\bin\EpamTask7-3.pdb
+C:\Users\user\Desktop\050514\EpamTask7-3\EpamTask7-3\obj\Debug\EpamTask7-3.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\050514\EpamTask7-3\EpamTask7-3\obj\Debug\EpamTask7-3.dll
+C:\Users\user\Desktop\050514\EpamTask7-3\EpamTask7-3\obj\Debug\EpamTask7-3.pdb
+G:\Epam courses\New folder\050514\EpamTask7-3\EpamTask7-3\bin\EpamTask7-3.dll
+G:\Epam courses\New folder\050514\EpamTask7-3\EpamTask7-3\bin\EpamTask7-3.pdb
+G:\Epam courses\New folder\050514\EpamTask7-3\EpamTask7-3\obj\Debug\EpamTask7-3.csprojResolveAssemblyReference.cache
+G:\Epam courses\New folder\050514\EpamTask7-3\EpamTask7-3\obj\Debug\EpamTask7-3.dll
+G:\Epam courses\New folder\050514\EpamTask7-3\EpamTask7-3\obj\Debug\EpamTask7-3.pdb

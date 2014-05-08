@@ -1,0 +1,128 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <!-- <script src="JavaScript73.js"></script>-->
+    <script src="JavaScript2.js"></script>
+    <link href="StyleSheet73.css" rel="stylesheet" />
+    <title>Задание 7.3 </title>
+</head>
+<body>
+    
+    <p class="task73">
+    Создать страницу со следующим набором элементов (интерфейс приблизителен): 
+    </p>
+
+    <img src="images/interface1.png" />
+    
+    <p class="task73">
+    При нажатии кнопок <img src="images/button1.png" /> и <img src="images/button2.png" /> выделенные элементы из одного списка перекидываются в другой. 
+    При этом выделение с них снимается, и они добавляются в конец списка. Если ни один из элементов не 
+    выделен, выводится соответствующее сообщение.
+    </p>
+
+    <p class="task73">
+    При нажатии кнопок <img src="images/button3.png" /> и <img src="images/button4.png" /> все элементы из одного списка перекидываются в другой. 
+    </p>
+
+    <p class="parBold">
+    Примечание 
+    </p>
+
+    <p class="task73">
+    Предусмотреть возможность нахождения на одной странице нескольких таких групп элементов со 
+    схожим функционалом.
+    </p>
+        
+    <div id="list1">
+        <table>
+        <tr>
+            <td>
+                <p class="parBold "> Available </p>
+                <ul class="available">
+                    <li onclick="Mark('list1','Пункт1')" class="Пункт1">Пункт 1</li>   <!--убрать классы-->
+                    <li onclick="Mark('list1','Пункт2')" class="Пункт2">Пункт 2</li>
+                    <li onclick="Mark('list1','Пункт3')" class="Пункт3">Пункт 3</li>
+                    <li onclick="Mark('list1','Пункт4')" class="Пункт4">Пункт 4</li>
+                </ul>
+
+            </td>
+
+            <td class="CenterTD">
+                <p><button id="List1AllToSelected" onclick='AllToSelected("list1")'> >> </button></p>
+                <p><button id="List1ToSelected" onclick='ToSelected("list1")'> > </button></p>
+                <p><button id="List1ToAvailable" onclick='ToAvailable("list1")'> < </button></p>
+                <p><button id="List1AllToAvailable"  onclick='AllToAvailable("list1")'> << </button></p>
+
+            </td>
+
+            <td>              
+                <p class="parBold "> Selected </p>
+                <ul class="selected">  </ul>          
+            </td>
+        </tr>
+        </table>
+    </div>
+
+
+
+    <div id="Div1">
+        <table>
+        <tr>
+            <td>
+                <p class="parBold "> Available </p>
+                <ul class="available">
+                    <li onclick="Mark('Div1','Пункт1')" class="Пункт1">Пункт 1</li>   <!--убрать классы-->
+                    <li onclick="Mark('Div1','Пункт2')" class="Пункт2">Пункт 2</li>
+                    <li onclick="Mark('Div1','Пункт3')" class="Пункт3">Пункт 3</li>
+                    <li onclick="Mark('Div1','Пункт4')" class="Пункт4">Пункт 4</li>
+                </ul>
+  
+            </td>
+
+            <td class="CenterTD">
+                <p><button onclick='AllToSelected("Div1")'> >> </button></p>
+                <p><button onclick='ToSelected("Div1")'> > </button></p>
+                <p><button onclick='ToAvailable("Div1")'> < </button></p>
+                <p><button onclick='AllToAvailable("Div1")'> << </button></p>
+
+            </td>
+
+            <td>              
+                <p class="parBold "> Selected </p>
+                <ul class="selected"> </ul>
+            </td>
+        </tr>
+    </table>
+ </div>
+   
+<div id="Div2">
+    <table>
+    <tr>
+        <td>
+            <p class="parBold "> Available </p>
+            <ul class="available">
+                <li onclick="Mark('Div2', 'xxx')" class="xxx" id="xxx"> xxx</li>
+                <li onclick="Mark('Div2','yyy')" class="yyy" id="yyy"> yyy</li>
+            </ul>
+  
+        </td>
+
+        <td class="CenterTD">
+            <p><button onclick='AllToSelected("Div2")'> >> </button></p>
+            <p><button onclick='ToSelected("Div2")'> > </button></p>
+            <p><button onclick='ToAvailable("Div2")'> < </button></p>
+            <p><button onclick='AllToAvailable("Div2")'> << </button></p>
+
+        </td>
+
+        <td>              
+            <p class="parBold "> Selected </p>
+            <ul class="selected"> </ul>
+        </td>
+    </tr>
+</table>
+</div>
+
+</body>
+</html>
