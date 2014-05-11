@@ -12,3 +12,4 @@ G:\Epam courses\New folder\050514\EpamTask7-3\EpamTask7-3\bin\EpamTask7-3.pdb
 G:\Epam courses\New folder\050514\EpamTask7-3\EpamTask7-3\obj\Debug\EpamTask7-3.csprojResolveAssemblyReference.cache
 G:\Epam courses\New folder\050514\EpamTask7-3\EpamTask7-3\obj\Debug\EpamTask7-3.dll
 G:\Epam courses\New folder\050514\EpamTask7-3\EpamTask7-3\obj\Debug\EpamTask7-3.pdb
+C:\Users\User\Documents\Visual Studio 2012\Projects\EpamTask7-3\EpamTask7-3\obj\Debug\EpamTask7-3.csprojResolveAssemblyReference.cache

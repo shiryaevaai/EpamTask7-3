@@ -63,6 +63,7 @@
     <Content Include="images\button4.PNG" />
     <Content Include="index.html" />
     <Content Include="images\interface1.PNG" />
+    <Content Include="JavaScript1.js" />
     <Content Include="JavaScript2.js" />
     <Content Include="JavaScript73.js" />
     <Content Include="StyleSheet73.css" />
