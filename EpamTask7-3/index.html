@@ -2,9 +2,10 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <!-- <script src="JavaScript73.js"></script>-->
-    <!--<script src="JavaScript2.js"></script>-->
-    <script src="JavaScript1.js"></script>
+
+<!--    <script src="JavaScript1.js"></script>-->
+    <script src="JavaScript4Firefox.js"></script>
+
     <link href="StyleSheet73.css" rel="stylesheet" />
     <title>Задание 7.3 </title>
 </head>
@@ -35,8 +36,8 @@
     схожим функционалом.
     </p>
         
-    <div id="list1" onclick="Func(this)">
-        <table>
+    <div id="list1" >
+        <table id="table1">
         <tr>
             <td>
                 <p class="parBold "> Available </p>
@@ -49,11 +50,11 @@
 
             </td>
 
-            <td class="CenterTD">
-                <p><button class='allToSelected' > >> </button></p>   
-                <p><button class='toSelected'> > </button></p>
-                <p><button class='toAvailable'> < </button></p>
-                <p><button class='allToAvailable'> << </button></p>
+            <td id="CenterTD1" class="CenterTD">
+                <p><button id="allToSelected1" class='allToSelected' onclick="AllToSelected(this)"> >> </button></p>   
+                <p><button id="ToSelected1" class='toSelected'  onclick="ToSelected(this)"> > </button></p>
+                <p><button id="ToAvailable1" class='toAvailable'  onclick="ToAvailable(this)"> < </button></p>
+                <p><button id="allToAvailable1" class='allToAvailable'  onclick="AllToAvailable(this)"> << </button></p>
 
             </td>
 
@@ -65,25 +66,25 @@
         </table>
     </div>
 
-        <div id="Div1" onclick="Func(this)">
-        <table>
+          <div id="Div1" >
+        <table id="table2">
         <tr>
             <td>
                 <p class="parBold "> Available </p>
                 <ul class="available">
-                    <li onclick='Mark(this)'>Пункт 1</li>   
-                    <li onclick='Mark(this)'>Пункт 2</li>    
+                    <li onclick='Mark(this)'>Пункт 1</li>   <!--убрать классы-->
+                    <li onclick='Mark(this)'>Пункт 2</li>    <!--как копировать все атрибуты элемента?    onclick='AllToSelected(this)'-->
                     <li onclick='Mark(this)'>Пункт 3</li>
                     <li onclick='Mark(this)'>Пункт 4</li>
                 </ul>
 
             </td>
 
-            <td class="CenterTD">
-                <p><button class='allToSelected' > >> </button></p>   
-                <p><button class='toSelected'> > </button></p>
-                <p><button class='toAvailable'> < </button></p>
-                <p><button class='allToAvailable'> << </button></p>
+            <td id="Td1" class="CenterTD">
+                <p><button id="Button1" class='allToSelected' onclick="AllToSelected(this)"> >> </button></p>   
+                <p><button id="Button2" class='toSelected'  onclick="ToSelected(this)"> > </button></p>
+                <p><button id="Button3" class='toAvailable'  onclick="ToAvailable(this)"> < </button></p>
+                <p><button id="Button4" class='allToAvailable'  onclick="AllToAvailable(this)"> << </button></p>
 
             </td>
 

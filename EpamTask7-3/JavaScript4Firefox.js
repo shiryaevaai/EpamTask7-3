@@ -1,31 +1,6 @@
-﻿function Func(el) {
-    var list = el;
-    var target = event.srcElement;
-    var actionType = event.srcElement.className;
-
-    if (actionType !== null) {
-      
-        if (actionType.indexOf('allToSelected') > -1) {
-            AllToSelected(list);
-        }
-                
-        if (actionType.indexOf('allToAvailable') > -1) {
-            AllToAvailable(list);
-        }
-
-        if (actionType.indexOf('toSelected') > -1) {
-            ToSelected(list);
-        }
-        
-        if (actionType.indexOf('toAvailable') > -1) {
-            ToAvailable(list);
-        }
-       
-    }
-}
-
-function AllToSelected(list) {
-    var avList = list.getElementsByClassName("available")[0],
+﻿function AllToSelected(elem) {
+    var list = elem.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode,
+        avList = list.getElementsByClassName("available")[0],
      selList = list.getElementsByClassName("selected")[0],
      children = avList.children,
      i,
@@ -44,8 +19,9 @@ function AllToSelected(list) {
     avList.innerHTML = "";
 }
 
-function AllToAvailable(list) {
-    var avList = list.getElementsByClassName("available")[0],
+function AllToAvailable(elem) {
+    var list = elem.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode,
+     avList = list.getElementsByClassName("available")[0],
      selList = list.getElementsByClassName("selected")[0],
 
      children = selList.children,
@@ -65,8 +41,9 @@ function AllToAvailable(list) {
     selList.innerHTML = "";
 }
 
-function ToSelected(list) {
-    var avList = list.getElementsByClassName("available")[0],
+function ToSelected(elem) {
+    var list = elem.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode,
+     avList = list.getElementsByClassName("available")[0],
      selList = list.getElementsByClassName("selected")[0],
 
      marked = false,
@@ -89,8 +66,9 @@ function ToSelected(list) {
     }
 }
 
-function ToAvailable(list) {
-    var avList = list.getElementsByClassName("available")[0],
+function ToAvailable(elem) {
+    var list = elem.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode,
+     avList = list.getElementsByClassName("available")[0],
      selList = list.getElementsByClassName("selected")[0],
 
      marked = false,
@@ -113,24 +91,24 @@ function ToAvailable(list) {
     }
 }
 
-//function Mark(elem) {
-//    //var list = document.getElementById(listID),
-//    //elements = list.getElementsByClassName(elemClass),
-//    //elem;
+function Mark(elem) {
+    //var list = document.getElementById(listID),
+    //elements = list.getElementsByClassName(elemClass),
+    //elem;
 
-//    if (elem.className == null) {
-//        elem.className = "marked";
-//    }
-//    else
-//        if (elem.className.indexOf("marked") === -1) {
-//            elem.className += " marked";
-//        }
-//        else {
-//            //element.classList = "";
-//            elem.className = elem.className.replace(/(?:^|\s)marked(?!\S)/, '');
-//        }
-    
-//}
+    if (elem.className == null) {
+        elem.className = "marked";
+    }
+    else
+        if (elem.className.indexOf("marked") === -1) {
+            elem.className += " marked";
+        }
+        else {
+            //element.classList = "";
+            elem.className = elem.className.replace(/(?:^|\s)marked(?!\S)/, '');
+        }
+
+}
 
 
 
